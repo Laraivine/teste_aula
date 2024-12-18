@@ -8,6 +8,7 @@ public class CalculadoraMedia {
         // Solicitar a quantidade de notas
         System.out.print("Digite o número de notas que deseja calcular: ");
         int quantidade = scanner.nextInt();
+        
 
         // Verificar se a quantidade é válida
         if (quantidade <= 0) {
